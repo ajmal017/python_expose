@@ -1,61 +1,65 @@
-MY EXPERIENCE:
-
-I saw an awesome article/tutorial on analyzing crypto currency with python. I've not used any powerful python libraries 
-like plotly, nor have I used jupyter notebooks before. After I went through the tutorial I went back through and tried to 
-organize, strengthen, and play with the code. 
-
+# MY EXPERIENCE:
 
 An awesome article that I saw online about using jupyter notebooks for analysing crypto data sparked my curiosity and made me
 go down the wormhole investigating cryptocurrencies and their underlying patterns. This journey began over winter break 2017/2018,
-and continued into my final spring semester where I followed up on this interest researching under Dr. Filippo Radicchi at IU. A few 
-strategies, patterns, and many academic articles later I gained a small knowledge of pattern analysis as well as testing my python skills.
+and continued into my final spring semester where I followed up on this interest researching under Dr. Filippo Radicchi at IU in Bloomington, IN. A few strategies, patterns, and many academic articles later I gained a small knowledge of pattern analysis as well as testing my python skills.
 
-Note: you can find my final algorithm that I presented in the final_report/ directory
+*Note: you can find my final algorithm that I presented in the final_report/ directory*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-MESSAGE TO NON-CODERS/BUSINESS/FINANCE PEOPLE:
+## MESSAGE TO NON-CODERS/BUSINESS/FINANCE PEOPLE:
 
-You must install Anaconda before you are able to use jupyter notebooks which is the 
-environment in which I created this project. You do not need to download Python in addition
-to Anaconda because Anaconda contains a Python interpreter of its own. the first time you 
-open up your environment 
+You probably want to install Anaconda to manage your environment which I created this project. You do not need to download Python in additionto Anaconda because Anaconda contains a Python interpreter of its own.
 
 every time you use this environment you must run the following commands in the terminal
 in the folder in which you put the project:
 
 MAC/LINUX:
 
+```
 source activate crypto-analysis
 jupyter notebook
+```
+*starts virtual environment*
 
 - after you run the second command the notebook will open up in your browser.
   When you are finished with the environment you'll have to use the keystroke ctrl + c
   to interupt the environment, and then press y and then enter to kill the notebook session.
   Finally run the following command to deactivate the project.
   
-source deactivate
+``` source deactivate ```
+* kills virtual environment*
 
 WINDOWS:
 
+```
 activate crypto-analysis
 jupyter notebook
+```
+*starts virtual environment*
 
 - after you run the second command the notebook will open up in your browser.
   When you are finished with the environment you'll have to use the keystroke ctrl + c
   to interupt the environment, and then press y and then enter to kill the notebook session.
   Finally run the following command to deactivate the project.
   
-deactivate
+  
+```deactivate```
+* kills virtual environment*
 
-NOTES TO ALL USERS:
+## NOTES TO ALL USERS:
 
 - the first time you run the environment you must install the Python libraries necessary
   for the project by running the following in the terminal:
-  "conda install numpy pandas nb_conda jupyter plotly quandl"
+  
+  ```conda install numpy pandas nb_conda jupyter plotly quandl```
+  
   What I have discovered is that often times when I spin up a new environment and run the code
   the graph's won't show up in the output. if you kill the current jupyter
   notebook and run the command:
-  "conda install plotly quandl"
+  
+  ```conda install plotly quandl```
+  
   and try restarting your jupyter notebook, I've found that in most cases this fixes the
   issue. I think most of the time it is the plotly library being dodgy, but I have found 
   instances where it was quandl. If you want to try installing just plotly and restarting 
