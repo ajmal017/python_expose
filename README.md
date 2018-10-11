@@ -5,7 +5,7 @@
 ## GUIDE
 
 - ### Crypto Analysis
-  this folder contains my research from my spring semester of development and cryptocurrency research, and is better documented in the readme found in that folder. One *NOTE: the final_report/ directory contains the final typed up report that I used when presenting my ideas.*
+  this folder contains my research from my spring semester of development and cryptocurrency research, and is better documented in the readme found in that folder. The files are mostly jupyter notebooks so sometimes github does not display them properly, if this is the case I have directions for how to get jupyter notebooks up and running in the readme in the crypto-analysis/ directory One *NOTE: the final_report/ directory contains the final typed up report that I used when presenting my ideas.* 
   
 - ### Renko Trading Strategy
   This folder contains a class and a test suite that I developed for a freelance client. It is an implementation of a renko trading strategy. The renko class may be used to make sense of historical data as well as process real-time ticker data. It may be used with preselected candlestick sizes, or use Average True Range calculations to dynamically determine renko candlestick size
