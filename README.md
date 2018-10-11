@@ -1,8 +1,8 @@
-# python_expose
+### python_expose
 
 # I've created this repository for the purpose of showing some of my better work written in python
 
-# GUIDE
+## GUIDE
 
 - ## Crypto Analysis
   this folder contains my research from my spring semester of development and cryptocurrency research, and is better documented in the readme found in that folder. One *NOTE: the final_report/ directory contains the final typed up report that I used when presenting my ideas.*
