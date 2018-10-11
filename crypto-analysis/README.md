@@ -5,7 +5,7 @@ go down the wormhole investigating cryptocurrencies and their underlying pattern
 and continued into my final spring semester where I followed up on this interest researching under Dr. Filippo Radicchi at IU in Bloomington, IN. A few strategies, patterns, and many academic articles later I gained a small knowledge of pattern analysis as well as testing my python skills.
 
 *Note: you can find my final algorithm that I presented in the final_report/ directory*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## MESSAGE TO NON-CODERS/BUSINESS/FINANCE PEOPLE:
 
@@ -65,5 +65,10 @@ jupyter notebook
   instances where it was quandl. If you want to try installing just plotly and restarting 
   the jupyter notebook this might save you a little time.
   
+  ### further documentation for conda environments:
   
+  I realize my intro to conda environments is less than exhaustive so here are some links to help you through what I've neglected.
+  
+  [Managing conda environments](https://conda.io/docs/user-guide/tasks/manage-environments.html)
+  [conda cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)
   
